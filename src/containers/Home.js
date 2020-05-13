@@ -83,11 +83,10 @@ function renderLander() {
       </div>
     );
   }
-
+//revert
   return (
     <div className="Home">
       {isAuthenticated ? renderNotes() : renderLander()}
-{ isAuthenticated.none.no }
     </div>
   );
 }
