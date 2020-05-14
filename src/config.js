@@ -6,7 +6,7 @@ const dev = {
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://aa7l1vk0x1.execute-api.us-east-1.amazonaws.com/dev"
+    URL: "https://api.notes-app-demo.com/dev"
   },
   cognito: {
     REGION: "us-east-1",
@@ -24,7 +24,7 @@ const prod = {
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://64xa18zic4.execute-api.us-east-1.amazonaws.com/prod"
+    URL: "https://api.notes-app-demo.com/prod"
   },
   cognito: {
     REGION: "us-east-1",
